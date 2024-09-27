@@ -1,0 +1,620 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.logo{
+    background-image: url(logo2.webp);
+    height: 25px;
+    width: 83%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1.8px solid white;
+    border-radius: 2px;
+}
+/* nav-address styling */
+.nav-address{
+    width: 102px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-address-info{
+    height: 35px;
+    width: 100%;
+}
+
+.address-first{
+    color: #cccccc;
+    font-size: 0.75rem;
+    margin-left:21px;
+}
+.address-second{
+    color: white;
+    font-size: 0.85rem;
+    font-weight: 700;
+    margin-left: 3px;
+}
+.nav-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* nav-search styling */
+
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    width: 670px;
+    height: 41px;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    width: 55px;
+    background-color: #e6e6e6;
+    color: #0f1111;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 550;
+    border: none;
+}
+.search-icon{
+    color: #0f1111;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #edbb6f;
+    font-size: 1.23rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+/* navlanguage */
+.nav-language{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 75px;
+    cursor: pointer;
+}
+.flag{
+    background-image: url(usa.png);
+    /* background-color: #cccccc; */
+    height: 13px;
+    width: 21px;
+    background-size: cover;
+}
+.flag-select{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-weight: 800 ;
+    cursor: pointer;
+}
+/* nav signin style */
+.nav-signin{
+    height: 50px;
+    width: 133px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.nav-first{
+    font-size: 0.78rem;
+    font-size: 700;
+}
+.nav-second{
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+/* nav return style */
+.nav-return{
+    width: 78px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+/* navcart style */
+.nav-cart{
+    height: 50px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+.cart-logo{
+    font-size: 2.15rem;
+    align-self: center;
+    cursor: pointer;
+}
+.cart{
+    font-size: 0.80rem;
+    position: relative;
+    top: 27px;
+    cursor: pointer;
+}
+/* panel styling */
+.panel{
+    height: 39px;
+    width: 100%;
+    /* background-color: rgb(34, 34, 49); */
+    background-color: #222f3d;
+    display: flex;
+    font-size: 0.80rem;
+    font-weight: 600;
+}
+.panel-bars{
+    width: 60px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.panel-bars i{
+    font-size: 1.3rem;
+}
+.panel-oph{
+    color: white;
+
+}
+.oph1{
+    display: inline-block;
+    padding: 9px;
+    cursor: pointer;
+}
+.oph2{
+    display: inline-block;
+    padding: 9px;
+    cursor: pointer;
+}
+.oph3{
+    display: inline-block;
+    padding: 9px;
+    cursor: pointer;
+}
+.oph4{
+    display: inline-block;
+    padding: 9px;
+    cursor: pointer;
+}
+.oph5{
+    display: inline-block;
+    padding: 9px;
+    cursor: pointer;
+}
+.hero-section{
+    background-image: url(hero_image.jpg);
+    height: 220px;
+    width: 100%;
+    background-size: cover;
+}
+/* boxes style */
+.shop-section{
+    height: 453px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(79, 43, 179);
+}
+.box{
+    height: 430px;
+    width: 23%;
+    background-color: white;
+}
+/* box1 */
+.box1 h2{
+    margin-left: 17px;
+    font-weight: 800;
+
+}
+.content{
+    padding: 19px;
+}
+.box1{
+
+}
+.box-1-image{
+    background-image: url(box_1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    cursor: pointer;
+
+}
+.content a{
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #007185;
+    cursor: pointer;
+}
+.content:hover{
+    a{
+        color: rgb(182, 87, 25);
+    }
+}
+/* box2 */
+.box2 h2{
+    margin-left: 17px;
+    font-weight: 800;
+
+}
+.content-box2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.outer-box2-image1{
+    height: 135px;
+    width: 135px;
+    cursor: pointer;
+}
+.outer-box2-image1 p{
+    font-size: 0.75rem;
+}
+.box2-image1{
+    background-image: url(box_2_1.jpg);
+    height: 115px;
+    width: 130px;
+    background-size: cover;
+    background-position: center;
+}
+.outer-box2-image2{
+    height: 135px;
+    width: 135px;
+    cursor: pointer;
+}
+.box2-image2{
+    background-image: url(box_2_2.jpg);
+    height: 115px;
+    width: 130px;
+    background-size: cover;
+    background-position: center;
+}
+.outer-box2-image2 p{
+    font-size: 0.75rem;
+}
+.outer-box2-image3{
+    height: 135px;
+    width: 135px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.outer-box2-image3 p{
+    font-size: 0.75rem;
+}
+.box2-image3{
+    background-image: url(box_2_3.jpg);
+    height: 115px;
+    width: 130px;
+    background-size: cover;
+    background-position: center;
+}
+.outer-box2-image4{
+    height: 135px;
+    width: 135px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.outer-box2-image4 p{
+    font-size: 0.75rem;
+}
+.box2-image4{
+    background-image: url(box_2_4.jpg);
+    height: 115px;
+    width: 130px;
+    background-size: cover;
+    background-position: center;
+}
+.box2 a{
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #007185;
+    cursor: pointer;
+    margin-left: 14px;
+}
+.box2:hover{
+    a{
+        color: rgb(182, 87, 25);
+        text-decoration: underline;
+    }
+}
+/* box3  */
+.box3 h2{
+    margin-left: 17px;
+    font-weight: 800;
+
+}
+.content-box3{
+    padding: 19px;
+}
+.box3{
+
+}
+.box-3-image{
+    background-image: url(box_3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    cursor: pointer;
+
+}
+.content-box3 a{
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #007185;
+    cursor: pointer;
+}
+.content-box3:hover{
+    a{
+        color: rgb(182, 87, 25);
+    }
+}
+/* box4  */
+.box4 h2{
+    margin-left: 17px;
+    font-weight: 700;
+
+}
+.content-box4{
+    padding: 19px;
+}
+.box4{
+
+}
+.box-4-image{
+    background-image: url(box_4.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    cursor: pointer;
+
+}
+.content-box4 a{
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #007185;
+    cursor: pointer;
+}
+.content-box4:hover{
+    a{
+        color: rgb(182, 87, 25);
+    }
+}
+/* box5  */
+.box5 h2{
+    margin-left: 17px;
+    font-weight: 700;
+
+}
+.content-box4{
+    padding: 19px;
+}
+.box5{
+
+}
+.box-5-image{
+    background-image: url(box_5.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    cursor: pointer;
+
+}
+.content-box5 a{
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #007185;
+    cursor: pointer;
+}
+.content-box5:hover{
+    a{
+        color: rgb(182, 87, 25);
+    }
+}
+/* box6  */
+.box6 h2{
+    margin-left: 17px;
+    font-weight: 700;
+
+}
+.content-box6{
+    padding: 19px;
+}
+.box6{
+
+}
+.box-6-image{
+    background-image: url(box_6.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    cursor: pointer;
+
+}
+.content-box6 a{
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #007185;
+    cursor: pointer;
+}
+.content-box6:hover{
+    a{
+        color: rgb(182, 87, 25);
+    }
+}
+/* box7 */
+.box7 h2{
+    margin-left: 17px;
+    font-weight: 700;
+    font-size: 1.25rem;
+
+}
+.content-box7{
+    padding: 19px;
+}
+.box7{
+
+}
+.box-7-image{
+    background-image: url(box_7.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    cursor: pointer;
+
+}
+.content-box7 a{
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #007185;
+    cursor: pointer;
+}
+.content-box7:hover{
+    a{
+        color: rgb(182, 87, 25);
+    }
+}
+/* box8 */
+.box8 h2{
+    margin-left: 17px;
+    font-weight: 700;
+    font-size: 1.25rem;
+
+}
+.content-box8{
+    padding: 19px;
+}
+.box8{
+
+}
+.box-8-image{
+    background-image: url(box_8.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    cursor: pointer;
+
+}
+.content-box8 a{
+    font-weight: 700;
+    font-size: 0.80rem;
+    color: #007185;
+    cursor: pointer;
+}
+.content-box8:hover{
+    a{
+        color: rgb(182, 87, 25);
+    }
+}
+/* footer */
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot-panel2{
+    height: 370px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul p{
+    font-weight: 700;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+.foot-panel3{
+    height: 70px;
+    border-top: 0.1px groove white;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo2{
+    background-image: url(logo2.webp);
+    height: 25px;
+    width: 10%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.foot-panel4{
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.75rem;
+    height: 70px;
+    text-align: center;
+
+}
+.pages{
+    padding-top: 15px;
+
+}
+.copyright{
+    padding-top: 5px;
+}
+.foot-panel4 a{
+    cursor: pointer;
+    margin-right: 7px;
+}
+.foot-panel4 a:hover{
+    text-decoration: underline;
+}
